@@ -199,6 +199,14 @@ article a:hover {
     padding-top: 80px;
     font-size: 60px; } }
 
+.navbar-nav {
+  margin-bottom: .5em; }
+
+.nav-item {
+  font-size: 1.5em;
+  padding: 0 3em 0 3em;
+  margin: 0 1em 0 1em; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -217,6 +225,9 @@ body {
 .topbar {
   width: 90%;
   margin: 0 auto; }
+
+#nameTitle {
+  font-size: 4em; }
 
 #portfolio {
   width: 100%; }
@@ -256,25 +267,31 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
 
-.portfolio-row {
-  height: 30%; }
-
-.project1 {
-  margin-bottom: 5%; }
-
-.project1 {
-  padding: 0 5px 0 5px;
-  height: 400px;
-  width: 400px; }
-
-.project3 {
-  margin-bottom: 5%;
-  padding: 0 5px 0 5px;
-  height: 400px;
-  width: 400px; }
-
 .wontwork {
   margin: 0 auto; }
+
+.jumbotron-heading {
+  font-size: 1em; }
+
+.card {
+  color: slategray; }
+
+.jumbotron2 {
+  background-color: #E1E1E1;
+  text-decoration-color: #545454; }
+
+.jumbotron-heading {
+  text-decoration-color: #545454; }
+
+.projectSection {
+  margin-top: 15em; }
+
+#projectCard {
+  padding: 2em; }
+
+.cssimage {
+  margin: auto;
+  height: 50%; }
 
 /*font-family: 'Sedgwick Ave', cursive;*/
 .about-left {
