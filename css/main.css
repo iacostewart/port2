@@ -293,6 +293,15 @@ body {
   margin: auto;
   height: 50%; }
 
+.col-md-4 {
+  height: 20vh;
+  width: 20vh;
+  margin: auto; }
+
+.contact7-form {
+  margin-top: 2em;
+  background-color: #5A5A5A; }
+
 /*font-family: 'Sedgwick Ave', cursive;*/
 .about-left {
   width: 40%;
@@ -432,6 +441,18 @@ body {
 
 .form-control {
   color: white !important; }
+
+.jumbskills {
+  font-size: 3em;
+  max-height: 5em;
+  margin: 0 0 0 12em;
+  color: slategray; }
+
+.jumbotext {
+  font-size: 3rem; }
+
+.skillContainer {
+  padding: 5em; }
 
 .bars {
   /*   background-color:pink; */
