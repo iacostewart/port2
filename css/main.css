@@ -39,12 +39,6 @@ span::after {
   height: 4px;
   position: absolute; }
 
-.bar::before {
-  transform: translateY(-9px); }
-
-.bar::after {
-  transform: translateY(9px); }
-
 .bars.active .bar {
   background-color: transparent; }
 
@@ -286,21 +280,52 @@ body {
 .projectSection {
   margin-top: 15em; }
 
-#projectCard {
-  padding: 2em; }
-
-.cssimage {
-  margin: auto;
-  height: 50%; }
-
-.col-md-4 {
-  height: 20vh;
-  width: 20vh;
-  margin: auto; }
-
 .contact7-form {
   margin-top: 2em;
   background-color: #5A5A5A; }
+
+#projectText {
+  margin: 0;
+  font-size: 10rem; }
+
+.horizontalBand {
+  width: 100%;
+  height: 50px;
+  background-color: #181818; }
+
+.horizontalBand2 {
+  width: 100%;
+  height: 10px;
+  background-color: #252525; }
+
+.horizontalBand3 {
+  width: 100%;
+  height: 10px;
+  background-color: #2B2B2B; }
+
+.card {
+  margin: auto;
+  width: 90%;
+  background-color: #2B2B2B;
+  border: 1px solid #2B2B2B; }
+
+.ProjectRow {
+  height: 20em; }
+
+.projBack {
+  margin: auto;
+  width: 90%;
+  height: 70em;
+  background-color: #2B2B2B; }
+
+.cardNoBorder {
+  border: 0; }
+
+.bottomProject {
+  margin: auto; }
+
+.centerContain {
+  margin: auto; }
 
 /*font-family: 'Sedgwick Ave', cursive;*/
 .about-left {
@@ -358,9 +383,6 @@ body {
 
 .about-section-content {
   font-size: 2em; }
-
-.container {
-  width: 80%; }
 
 .suck {
   width: 80%;
@@ -444,7 +466,7 @@ body {
 
 .jumbskills {
   font-size: 3em;
-  max-height: 5em;
+  max-height: 2em;
   margin: 0 0 0 12em;
   color: slategray; }
 
@@ -746,9 +768,6 @@ body {
 
 .about-section-content {
   font-size: 2em; }
-
-.container {
-  width: 80%; }
 
 .suck {
   width: 80%;

@@ -44,13 +44,6 @@
     position: absolute;
   }
   
-  .bar::before {
-    transform: translateY(-9px);
-  }
-  
-  .bar::after {
-    transform: translateY(9px);
-  }
   
   .bars.active .bar {
     background-color: transparent;
