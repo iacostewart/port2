@@ -267,6 +267,12 @@ body {
 .jumbotron-heading {
   font-size: 1em; }
 
+.projects {
+  margin-bottom: 10rem; }
+
+.projBack {
+  margin-top: 4rem; }
+
 .card {
   color: slategray; }
 
@@ -278,7 +284,8 @@ body {
   text-decoration-color: #545454; }
 
 .projectSection {
-  margin-top: 15em; }
+  margin-top: 15em;
+  margin-bottom: 2em; }
 
 .contact7-form {
   margin-top: 2em;
